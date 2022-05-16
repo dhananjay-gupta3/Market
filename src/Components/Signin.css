@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: poppins;
+	font-size: 16px;
+	color: #fff;
+}
+
+
+.form-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height: 430px;
+}
+.form-box:before {
+	background-image: url("https://images.pexels.com/photos/4512439/pexels-photo-4512439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	filter: blur(2px);
+}
+.form-box .header-text {
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.form-box input {
+    caret-color: #fff;
+    color: #fff;
+	margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+.form-box input[type=checkbox] {
+	display: none;
+}
+.form-box label {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 10px;
+	top: 5px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.form-box label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #ddd;
+}
+.form-box input[type=checkbox]:checked+label:before {
+	content: "\2713";
+	font-size: 20px;
+    border-radius: 15px;
+	color: rgb(1, 165, 48);
+	text-align: center;
+	line-height: 20px;
+}
+.form-box span {
+	font-size: 18px;
+    color: rgb(249, 244, 244);
+    background-color: transparent;
+}
+.form-box .button {
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+.open{
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+span a {
+	color: rgb(252, 251, 251);
+    background-color: transparent;
+}
+.icons{
+    text-align: center;
+    background-color: transparent;
+    
+}
+.insta{
+background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-radius: 9px;
+}
+.insta:hover{
+    color: rgb(206, 36, 36);
+}
+.face{
+    color: #fff;
+    background-color: transparent;
+    margin-left: 1rem;
+    border-radius: 15px;
+    border: 0;
+}
+.face:hover{
+    color: blue;
+}
+.git{
+    color: #fff;
+    background-color: transparent;
+    margin-left: 7px;
+    border-radius: 10px;
+}
+.git:hover{
+    color: rgb(114, 112, 112);
+	
+}

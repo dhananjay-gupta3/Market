@@ -1,0 +1,51 @@
+.home{
+    display:flow-root;
+}
+
+.heading{
+    color: rgb(28, 234, 13);
+    text-align: center;
+    font-size: 60px;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.img{
+    
+    width: 50%;
+    border-radius: 90px;
+    margin-top: -1rem;
+    
+}
+.text{
+    padding: 3rem;
+    color: #fff;
+    font-size: 30px;
+}
+span{
+    color: green;
+    font-size: 35px;
+}
+.images{
+    margin-top:-2rem ;
+    width: 30%;
+    
+}
+.tata{
+    margin-right: 2rem;
+    
+    color: #fff;
+    text-align: end;
+    font-size: 30px;
+
+}
+.tata:hover{
+    color: blue;
+}
+.im{
+    float: left;
+    width: 20%;
+}
+.imgs{
+    float: right;
+}
